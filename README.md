@@ -22,3 +22,5 @@ This will trick platforms into thinking a valid image has been served, when in r
 - Forum board attempts to fetch the image, gets redirected to a PHP script
 - PHP script outputs image, forum board is then tricked into thinking they've fetched a valid JPG
 - Dynamic image is included as avatar, and any other PHP code runs alongside it silently.
+
+For a more in-depth explanation as to how this works, see my blog post covering .htaccess exploitation techniques here: https://0x80dotblog.wordpress.com/2021/06/23/utilizing-htaccess-for-exploitation-purposes/
