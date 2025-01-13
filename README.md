@@ -9,7 +9,8 @@ PHP dynamic image IP logger utilizing htaccess mod_rewrite. Allows you to log IP
 
 ### Setup:
 - Copy the .htaccess file found within this repo and have it stored in your webroot directory (/var/www/html)
-- Add a valid JPG image to your webroot directory  
+- Add a valid JPG image to your webroot directory
+- Either name the JPG image as "lol.jpg" or modify the .htaccess file to replace "lol.jpg" with whatever image name you chose
 - Link or embed the JPG to log IP addresses
 
 
