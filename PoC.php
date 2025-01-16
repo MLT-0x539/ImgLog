@@ -24,7 +24,7 @@ imagestring( $my_img, 4, 30, 25, "MLT was here lol",
 imagesetthickness ( $my_img, 5 );
 imageline( $my_img, 30, 45, 165, 45, $line_colour );
 
-header( "Content-type: image/png" );
+header( "Content-type: image/jpg" );
 imagepng( $my_img );
 imagecolordeallocate( $line_color );
 imagecolordeallocate( $text_color );
